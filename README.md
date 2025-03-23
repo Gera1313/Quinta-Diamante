@@ -21,12 +21,12 @@ Online business page for Quinta Diamante
 ## Notes
 
 To do: 
-Add dark/light mode
-Add EN/ES language support
-Fully responsive design
-Toast Notifications: React Hot Toast
-Cookie Consent: React Cookie Consent
-Animations: Framer Motion
+- Add dark/light mode
+- Add EN/ES language support
+- Fully responsive design
+- Toast Notifications: React Hot Toast
+- Cookie Consent: React Cookie Consent
+- Animations: Framer Motion
 
 ## Contact 
 
