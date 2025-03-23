@@ -18,4 +18,6 @@ Online business page for Quinta Diamante
 
 ## Contributing
 
+## Contact 
 
+## License
