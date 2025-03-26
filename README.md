@@ -14,3 +14,4 @@ Welcome to the official repository for **Quinta Diamante**, a luxurious pool ren
 
 ## License
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
