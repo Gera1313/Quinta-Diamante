@@ -10,6 +10,8 @@ Welcome to the official repository for **Quinta Diamante**, a luxurious pool ren
 - Build Tool: Vite
 - Animations: Framer Motion
 - Routing: React Router DOM
+- Email Service: EmailJS (MAYBE?)
+
 
 ## Future Enhancements
 
