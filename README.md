@@ -13,6 +13,7 @@ Welcome to the official repository for **Quinta Diamante**, a luxurious pool ren
 - Email Service: EmailJS (MAYBE?)
 - Icons: React Icons
 - Toast Notifications: React Hot Toast
+- Cookie Consent: React Cookie Consent
 
 ## Future Enhancements
 
