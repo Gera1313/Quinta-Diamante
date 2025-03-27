@@ -8,6 +8,8 @@ Welcome to the official repository for **Quinta Diamante**, a luxurious pool ren
 
 - Frontend Framework: React 
 - Build Tool: Vite
+- Animations: Framer Motion
+- Routing: React Router DOM
 
 ## Future Enhancements
 
