@@ -11,6 +11,7 @@ Welcome to the official repository for **Quinta Diamante**, a luxurious pool ren
 ## Notes
 
 - Multilingual support EN/SP
+- Dark/Light Mode
 
 ## Contacts
 
