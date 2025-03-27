@@ -11,7 +11,8 @@ Welcome to the official repository for **Quinta Diamante**, a luxurious pool ren
 - Animations: Framer Motion
 - Routing: React Router DOM
 - Email Service: EmailJS (MAYBE?)
-
+- Icons: React Icons
+- Toast Notifications: React Hot Toast
 
 ## Future Enhancements
 
