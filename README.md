@@ -6,9 +6,11 @@ Welcome to the official repository for **Quinta Diamante**, a luxurious pool ren
 
 ## Technologies Used
 
+## Future Enhancements
+
 ## Notes
 
-## Future Enhancements
+- Multilingual support EN/SP
 
 ## Contacts
 
