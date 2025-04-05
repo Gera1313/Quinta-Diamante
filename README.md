@@ -22,7 +22,7 @@ Welcome to the official repository for **Quinta Diamante**, a luxurious pool ren
 - Multilingual support EN/SP
 - Dark/Light Mode
 - Full responsive design
-- 
+- Testing
 
 ## Contacts
 
