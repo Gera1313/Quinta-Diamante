@@ -9,7 +9,10 @@ export default function Hero({ onBook }) {
           Experience luxury and relaxation at our exclusive pool venue. Perfect for events, celebrations, or a private day of leisure in Acuña, Coahuila.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="bg-white text-black font-semibold py-3 px-6 rounded-2xl hover:bg-gray-200 transition">
+          <button
+            onClick={onBook}
+            className="bg-white text-black font-semibold py-3 px-6 rounded-2xl hover:bg-gray-200 transition"
+          >
             Book Now
           </button>
           <button className="border border-white text-white py-3 px-6 rounded-2xl hover:bg-white hover:text-black transition">
