@@ -13,7 +13,13 @@ import BookingModal from './components/BookingModal';
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  
+  const handleOpenModal = () => {
+    setIsModalOpen(true); 
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
 
   return (
     <Router>
