@@ -11,22 +11,16 @@ import Footer from './components/Footer';
 import BookingModal from './components/BookingModal';
 
 function App() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isBookingOpen, setIsBookingOpen] = useState(false);
 
-  const handleOpenModal = () => {
-    setIsModalOpen(true); 
-  };
 
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-  };
 
   return (
     <Router>
       <div className="min-h-screen bg-quinta-black">
         <Navbar />
         <main>
-          <Hero onBook={handleOpenModal} />
+          <Hero onBook={handleBooking} />
           <Amenities />
           <Gallery />
           <Pricing />
