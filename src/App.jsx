@@ -26,7 +26,7 @@ function App() {
       <div className="min-h-screen bg-quinta-black">
         <Navbar />
         <main>
-          <Hero />
+          <Hero onBook={handleOpenModal} />
           <Amenities />
           <Gallery />
           <Pricing />
