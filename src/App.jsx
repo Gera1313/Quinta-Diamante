@@ -11,6 +11,10 @@ import Footer from './components/Footer';
 import BookingModal from './components/BookingModal';
 
 function App() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  
+
   return (
     <Router>
       <div className="min-h-screen bg-quinta-black">
