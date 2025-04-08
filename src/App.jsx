@@ -34,7 +34,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
-        <BookingModal />
+        <BookingModal isOpen={isBookingOpen} setIsOpen={setIsBookingOpen} initialEventType={selectedEventType} />
       </div>
     </Router>
   );
