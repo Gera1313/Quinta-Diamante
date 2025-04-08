@@ -24,7 +24,7 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen bg-quinta-black">
-        <Navbar />
+        <Navbar onBook={handleBooking} />
         <main>
           <Hero onBook={handleBooking} />
           <Amenities />
