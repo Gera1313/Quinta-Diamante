@@ -29,7 +29,7 @@ function App() {
           <Hero onBook={handleBooking} />
           <Amenities />
           <Gallery />
-          <Pricing />
+          <Pricing onBook={handleBooking} />
           <FAQ />
           <Contact />
         </main>
