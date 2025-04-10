@@ -12,7 +12,6 @@ import BookingModal from './components/BookingModal';
 
 function App() {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
-
   const [selectedEventType, setSelectedEventType] = useState('private-event');
 
   const handleBooking = (eventType = 'private-event') => {
@@ -20,7 +19,6 @@ function App() {
     setIsBookingOpen(true);
   };
 
-  // Left off here
   return (
     <Router>
       <div className="min-h-screen bg-quinta-black">
@@ -34,7 +32,11 @@ function App() {
           <Contact />
         </main>
         <Footer />
-        <BookingModal isOpen={isBookingOpen} setIsOpen={setIsBookingOpen} initialEventType={selectedEventType} />
+        <BookingModal 
+          isOpen={isBookingOpen} 
+          setIsOpen={setIsBookingOpen}
+          initialEventType={selectedEventType}
+        />
       </div>
     </Router>
   );
