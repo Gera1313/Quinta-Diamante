@@ -1,3 +1,7 @@
+import { Fragment, useState, useEffect } from 'react';
+import { Dialog, Transition } from '@headlessui/react';
+import { XMarkIcon } from '@heroicons/react/24/solid';
+
 export default function BookingModal() {
     return (
       <section className="py-20 text-white text-center">
