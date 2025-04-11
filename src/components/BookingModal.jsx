@@ -5,7 +5,10 @@ import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 
 export default function BookingModal({ isOpen, setIsOpen, initialEventType }) {
+  const [startDate, setStartDate] = useState(new Date());
   const 
+
+
     return (
       <section className="py-20 text-white text-center">
         <h2 className="text-3xl font-bold mb-4">Booking Modal</h2>
