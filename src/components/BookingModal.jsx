@@ -14,7 +14,9 @@ export default function BookingModal({ isOpen, setIsOpen, initialEventType }) {
     guests: '1'
   });
 
-  useEffect
+  useEffect(() => {
+    
+  })
 
     return (
       <section className="py-20 text-white text-center">
