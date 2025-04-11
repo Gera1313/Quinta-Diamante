@@ -6,7 +6,11 @@ import "react-datepicker/dist/react-datepicker.css";
 
 export default function BookingModal({ isOpen, setIsOpen, initialEventType }) {
   const [startDate, setStartDate] = useState(new Date());
-  const 
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    
+  })
 
 
     return (
