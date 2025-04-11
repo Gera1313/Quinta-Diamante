@@ -10,10 +10,11 @@ export default function BookingModal({ isOpen, setIsOpen, initialEventType }) {
     name: '',
     email: '',
     phone: '',
-    eventType: '',
-    guests: ''
+    eventType: initialEventType,
+    guests: '1'
   });
 
+  useEffect
 
     return (
       <section className="py-20 text-white text-center">
