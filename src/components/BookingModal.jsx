@@ -9,8 +9,10 @@ export default function BookingModal({ isOpen, setIsOpen, initialEventType }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    
-  })
+    phone: '',
+    eventType: '',
+    guests: ''
+  });
 
 
     return (
