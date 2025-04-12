@@ -15,7 +15,9 @@ export default function BookingModal({ isOpen, setIsOpen, initialEventType }) {
   });
 
   useEffect(() => {
-    
+    setFormData(prev => ({
+      
+    }))
   })
 
     return (
