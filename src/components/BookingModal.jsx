@@ -28,6 +28,13 @@ export default function BookingModal({ isOpen, setIsOpen, initialEventType }) {
     setIsOpen(false);
   };
 
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
     return (
       <section className="py-20 text-white text-center">
         <h2 className="text-3xl font-bold mb-4">Booking Modal</h2>
