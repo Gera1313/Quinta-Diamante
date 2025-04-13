@@ -16,9 +16,10 @@ export default function BookingModal({ isOpen, setIsOpen, initialEventType }) {
 
   useEffect(() => {
     setFormData(prev => ({
-      
-    }))
-  })
+      ...prev,
+      eventType: initialEventType
+    }));
+  }, [initialEventType]);
 
     return (
       <section className="py-20 text-white text-center">
