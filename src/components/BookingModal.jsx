@@ -21,6 +21,13 @@ export default function BookingModal({ isOpen, setIsOpen, initialEventType }) {
     }));
   }, [initialEventType]);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // handle booking submissions 
+    console.log('Booking submitted:', { ...formData, date: startDate });
+    setIsOpen(false);
+  };
+
     return (
       <section className="py-20 text-white text-center">
         <h2 className="text-3xl font-bold mb-4">Booking Modal</h2>
