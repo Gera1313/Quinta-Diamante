@@ -74,6 +74,9 @@ export default function BookingModal({ isOpen, setIsOpen, initialEventType }) {
                 </div>
                 <div className="sm:flex sm:items-start">
                   <div className="mt-3 text-center sm:mt-0 sm:text-left w-full">
+                    <Dialog.Title as="h3" className="text-2xl font-semibold leading-6 text-white mb-6">
+                      Book Your Event 
+                    </Dialog.Title>
               
         </Dialog>
       </Transition.Root>
