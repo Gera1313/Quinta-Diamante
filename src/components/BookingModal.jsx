@@ -77,6 +77,7 @@ export default function BookingModal({ isOpen, setIsOpen, initialEventType }) {
                     <Dialog.Title as="h3" className="text-2xl font-semibold leading-6 text-white mb-6">
                       Book Your Event 
                     </Dialog.Title>
+                    <form onSubmit
               
         </Dialog>
       </Transition.Root>
